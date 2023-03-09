@@ -35,3 +35,6 @@ linux
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -trimpath -o pop3crack-linux-amd64 main.go 
 
 ```
+
+## TODO  
+参数优化
